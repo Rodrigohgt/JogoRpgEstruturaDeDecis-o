@@ -30,7 +30,7 @@ def iniciar():
             print("Você segue reto para o local do anuncio")
             break
         else:
-            print("insira uma numeração valida")
+            print("insira uma numeração validaa")
 
 if(__name__ == "__main__"):
     iniciar()
