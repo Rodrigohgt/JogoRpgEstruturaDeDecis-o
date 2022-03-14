@@ -22,11 +22,10 @@ def iniciar_jogo():
         else:
             x = int(input("informação invalida, tentar novamente {1} Fechar jogo {2}"))
             if(x == 1):
-                if(tente_novamente):
-                    print("tente novamente")
-                    continue
+                print("tente novamente")
+                continue
             else:
-                print("jogo cancela")
+                print("jogo cancelado")
                 break
             
 
